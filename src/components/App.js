@@ -11,13 +11,13 @@ const App = () => {
   return (
     <div id="main">
       <label htmlFor='text-input' >Text Input:- </label>
-      <input id="text-input" type={'text'} onChange={handleInput} />
+      <input id="text-input" type='text' onChange={handleInput} />
 
       <br/>
       <br/>
 
       <label htmlFor='num-input' >Number input</label>
-      <input id="num-input"  type={'number'} onChange={handleInput}/>
+      <input id="num-input"  type='number' onChange={handleInput}/>
       <br/>
     </div>
   )
